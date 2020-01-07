@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="_css/styles.css">
+  <!--Google-fonts-->
+<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Montserrat:400,500,800|Sacramento|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/ddd79a4da6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section id="title">
+    <nav class=" navbar fixed-top navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand">Rceitas do Dia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Fale Conosco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="receitas.html">Receitas</a>
+          </li>
+        </ul>
+        <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      -->
+      </div>
+    </nav>
+    <div class="top-image-home">
+      <img src="_imagens/receitasdodia-2.jpg" alt="receitas do dia">
+    </div>
+
+    <div class="title-sub-pages">
+      <h1>Receitas do dia</h1>
+      <h3>As receitas mais saborosas da net...</h3>
+    </div>
+    <hr>
+
+              <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contacte-nos</h2>
+    <!--Section description-->
+    <h3 class="text-center w-responsive mx-auto mb-5">Você tem alguma pergunta? Você tem alguma sugestão? Por favor, não hesite em nos contatar diretamente.</h3>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nome</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">e-mail</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Assunto</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Menssagem</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Bow Lane West-Kilmainham-Irlanda</p>
+                </li>
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>receitasdodia34@gmailcom</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+</section>
+<hr>
+<!--Section: Contact v.2-->
+
+<footer>
+  <div id="contact">
+    <img class="" src="_imagens/img-email.png" alt="">
+    <h5 class="contact-message">Pode enviar as suas receitas ou sugestões clicando no botão FALE CONOSCO</h5><br>
+    <a href="https://www.facebook.com/Receitas-do-Dia-111015547062799/?modal=admin_todo_tour" target="_blank"><button type="button" class="btn btn-primary btn-md">FACEBOOK</button></a>
+      <a href="https://www.instagram.com/receitas_do_dia_2019/?hl=pt" target="_blank"><button type="button" class="btn btn-primary btn-md">INSTAGRAM</button></a>
+    <a href="contacto.html" target=""><button type="button" class="btn btn-primary btn-md">FALE CONOSCO</button></a>
+    <h5><i class="ico far fa-copyright"></i>Receitas do Dia 2019/Todos os Direitos Reservados</h5>
+  </div>
+</footer>
+</html>

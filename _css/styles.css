@@ -1,0 +1,284 @@
+  /* Nav Bar */
+  body {
+    font-family: Montserrat-bold !important;
+    background-color:#f4efd3 !important;
+  }
+
+  #title {
+    background-color: #beebe;
+    height: 100%;
+    text-align: center;
+  }
+
+  #title a {
+    color: white;
+    font-size: 125%;
+  }
+
+  #title img {
+    width: 100%;
+  }
+
+  .title {
+    position: relative;
+    top: -500px;
+    text-align: center;
+    color: white;
+    font-size: 1000%;
+  }
+
+  .top-image-home {
+    width: 100%;
+    top: 1px;
+    position: relative;
+  }
+
+  #sub-title {
+    background-color: #beebe9;
+    padding: 2% 5%;
+    height: 20%;
+  }
+
+  #sub-title img {
+    width: 90%;
+    margin-top: 4%;
+    border-radius: 50%;
+  }
+
+  #carousel {
+    margin-top: 4%;
+    text-align: center;
+    background-color: #e47312 padding: 5%;
+  }
+
+  #carousel img {
+    width: 70%;
+    height: 80%;
+  }
+
+  #carousel h5 {
+    font-size: 400%;
+    background-color: #46b3e6;
+  }
+
+  #carousel p {
+    font-size: 200%;
+  }
+  #carousel h5{
+    font-size: 300%;
+  }
+
+  section#menu-tipo-receitas {
+    background-color: #beebe9;
+    margin-top: 3%;
+    text-align: center;
+    left: 1140px;
+    top: 75px;
+    position: absolute;
+    margin: 5px;
+  }
+
+  section#menu-tipo-receitas li {
+    margin: 2px;
+    transition: 1s;
+    background-color: #beebe9;
+    border-radius: 10%;
+  }
+
+  section#menu-tipo-receitas li:hover {
+    background-color: #4dd599;
+    border-radius: 15%
+  }
+
+  section#menu-tipo-receitas ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    padding: 15%;
+  }
+
+  section#menu-tipo-receitas a {
+    color: black;
+  }
+
+  section#menu-tipo-receitas img {
+    border-radius: 100%;
+  }
+
+  section#receita-semana {
+    background-color: #beebe9;
+    padding: 2% 5%;
+    height: 20%;
+  }
+
+  section#receita img {
+    width: 500%;
+    border-radius: 100%;
+  }
+
+  section#receita-semana h1 {
+    padding: 25px;
+    padding-left: 10px;
+  }
+
+  section#menu-tipo-receitas h1 {
+    text-align: left;
+    padding: 5%;
+  }
+
+  table#table-home {
+    margin: 5%;
+    padding: 10%;
+  }
+
+  section#sugestoes-chefe {
+    background-color:
+      margin-top: 4%;
+    text-align: center;
+    padding: 10%;
+  }
+
+  section#sugestoes-chefe h2 {
+    font-family: "Sacramento";
+    font-size: 600%;
+    color: blue;
+  }
+
+  section#sugestoes-chefe a {
+    font-size: 80%;
+  }
+
+  .carne h2 {
+    font-family: "Sacramento";
+    font-size: 600%;
+    color: blue;
+    text-align: center;
+  }
+
+  section#sugestoes-chefe h3 {
+    padding: 15px;
+    margin: 5px;
+  }
+
+  div#contact {
+    background-color: #beebe9;
+    text-align: center;
+    padding: 15px;
+    margin-top: 2px;
+  }
+
+  div#contact img {
+    border-radius: 100%;
+    padding: 3px;
+    width: 5%;
+    margin: 5px;
+  }
+
+  .circular:hover {
+    border-radius: 50%;
+    transition: 1s;
+  }
+
+  .circular-texto:hover {
+    background-color: #4dd599;
+    border-radius: 30%;
+    transition: 1s;
+  }
+
+  .circular-texto {
+    text-align: center;
+  }
+
+  .btn-bottom {
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 13px;
+    border: 4px solid #337bc4;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 9px 41px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #528ecc;
+  }
+
+  .btn-bottom:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #378de5;
+  }
+
+  .btn-bottom:active {
+    position: relative;
+    top: 50px;
+  }
+
+  div#contact i {
+    color: white;
+    padding: 15px;
+  }
+
+  /** sub-pages*/
+  section#receitas {
+    background-color: #beebe9;
+    width: 65%;
+    padding: 2% 5%;
+    height: 2%;
+    text-align: left;
+  }
+
+  section#receitas h1 {
+    text-align: center;
+  }
+
+  section#receitas img {
+    padding: 25px;
+    margin: 2px -2px;
+    border-radius: 100%;
+    max-width: 240%;
+  }
+
+  section#receitas li {
+    padding: 5px;
+    font-size: 140%;
+  }
+
+  section#modo-de-perparacao {
+    margin: 25px 25px 35px;
+    text-align: justify;
+    padding: 45px;
+  }
+
+  section#modo-de-perparacao h1 {
+    text-align: center;
+  }
+
+  section#modo-de-perparacao li {
+    padding: 10px;
+    font-size: 150%;
+  }
+
+  .title-sub-pages {
+    position: relative;
+    top: -300px;
+    text-align: center;
+    color: white;
+  }
+
+  .title-sub-pages h1 {
+    font-size: 400%;
+  }
+
+  /** contact-page*/
+  .mb-4 {
+    padding: 5%;
+  }
+
+  hr {
+    color: red;
+    border: 10px solid green;
+    border-radius: 5px;
+  }
